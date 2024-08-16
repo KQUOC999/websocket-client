@@ -1,6 +1,6 @@
 import { lazy, Suspense } from "react";
 import React from "react";
-import { Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const WebSocketClient = lazy ( () => import('./routers/pages/home/webSocket_client'))
 

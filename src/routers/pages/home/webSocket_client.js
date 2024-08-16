@@ -7,7 +7,7 @@ const WebSocketClient = () => {
   const socketRef = useRef(null);
 
   useEffect(() => {
-    socketRef.current = new WebSocket('ws://192.168.1.7/ws'); // Update with your ESP32 WebSocket server address
+    socketRef.current = new WebSocket('ws://192.168.4.1/ws'); // Update with your ESP32 WebSocket server address
 
     socketRef.current.onopen = () => {
       console.log('Connected to WebSocket Server');
