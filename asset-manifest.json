@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/form-salary-page/websocket-client/static/css/main.4efb37a3.css",
+    "main.js": "/form-salary-page/websocket-client/static/js/main.58420203.js",
+    "index.html": "/form-salary-page/websocket-client/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.4efb37a3.css",
+    "static/js/main.58420203.js"
+  ]
+}
